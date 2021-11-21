@@ -1,0 +1,9 @@
+
+
+multipass launch --name c1-cp1 --cpus 2 --mem 2048M --disk 30G
+multipass launch --name c1-node1 --cpus 2 --mem 2048M --disk 30G
+multipass launch --name c1-node2 --cpus 2 --mem 2048M --disk 30G
+multipass launch --name c1-node3 --cpus 2 --mem 2048M --disk 30G
+
+multipass shell c1-cp1
+multipass shell c1-node1
